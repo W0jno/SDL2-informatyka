@@ -112,7 +112,7 @@ int main(int argc, char** argv)
 		vector<Shape*> items;
 		Rectangle* rect1 = new Rectangle("First Rectangle", 100, 100, 100, 100, Color{ 0,255,255,255 });
 		Circle* circle1 = new Circle("First circle", 300, 150, 50, Color{ 1,231,69,255 });
-		Triangle* tria1 = new Triangle("First triangle", 600, 300, 200, 500, Color{ 192,2,158,255 });
+		Triangle* tria1 = new Triangle("First triangle", 700, 200, 300, 500, Color{ 192,2,158,255 });
 		items.push_back(rect1);
 		items.push_back(circle1);
 		items.push_back(tria1);
